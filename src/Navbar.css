@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  background-color: black;
+  height: 7vh;
+}
+
+.logo {
+  color: whitesmoke;
+  display: flex;
+  width: 50%;
+  align-items: center;
+  font-size: 2rem;
+  padding-left: 20px;
+  font-weight:bolder;
+}
+
+.menu {
+  display: flex;
+  justify-content: end;
+  width: 50%;
+  align-items: center;
+  height: 7vh;
+}
+
+.menu li {
+  display: flex;
+  align-items: center;
+  color: white;
+  height: 7vh;
+  list-style: none;
+  border-left: 1px solid whitesmoke;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.menu li:hover{
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
