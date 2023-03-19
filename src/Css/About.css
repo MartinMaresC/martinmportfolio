@@ -1,6 +1,5 @@
 .about-section{
-    height: 90vh;
-    width: 100vw;
+    height: 93vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,15 +15,16 @@
     content:'';
 	position: absolute;
     top: 7vh;
-    height: 90vh;
+    height: 93vh;
 	left: 0;
 	right: 0;
-	background-color: rgba(0,0,0,0.4)
+	background-color: rgba(0,0,0,0.4);
 }
 
 .about-section span {
-    font-size: 8rem;
+    font-size: 25vw;
     position: relative;
+    color: rgb(180, 109, 2);
 }
 
 .about-section h1 {
@@ -32,28 +32,16 @@
     margin-bottom: 20px;
 }
 
-.about-section h3 {
-    position: relative;
-    margin-top: 10px;
-    margin-bottom: 10px;
+@media (max-width: 740px) {
+    .about-section {
+        height: 50vh;
+    }
+
+    .about-section::before {
+        height: 50vh;
+    }
+
 }
 
-.about-section .texto {
-    position: relative;
-    margin-bottom: 5px;
-}
 
-.about-section ul {
-    width: 50%;
-    position: relative;
-    display: flex;
-    justify-content: space-evenly;
-    margin: 10px;
-}
 
-.about-section ul li {
-    display: flex;
-    justify-content: space-evenly;
-    color: rgb(230, 226, 12);
-    font-size:x-large;
-}

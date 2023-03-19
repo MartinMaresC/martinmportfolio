@@ -1,0 +1,40 @@
+.textabout {
+    text-align: center;
+}
+.textabout h3 {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.texto {
+    position: relative;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.textabout ul {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.textabout ul li {
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(180, 109, 2);
+    font-size:x-large;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+@media (max-width:740px) {
+.textabout ul li {
+    font-size: medium;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    }    
+}

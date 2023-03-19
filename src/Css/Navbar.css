@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  background-color: black;
+  height: 7vh;
+}
+
+.logo {
+  color: whitesmoke;
+  display: flex;
+  width: 50%;
+  align-items: center;
+  font-size: 2.8rem;
+  padding-left: 20px;
+  font-weight:bolder;
+}
+
+.menu {
+  display: flex;
+  justify-content: end;
+  width: 50%;
+  align-items: center;
+  height: 7vh;
+}
+
+.menu li {
+  display: flex;
+  align-items: center;
+  color: rgb(180, 109, 2);
+  height: 7vh;
+  list-style: none;
+  border-left: 1px solid rgb(180, 109, 2);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.menu li:hover{
+  cursor: pointer;
+  background-color: rgb(180, 109, 2);
+  color: black;
+}
+
+.hamburger:hover{
+  cursor: pointer;
+}
+
+@media (max-width:740px) {
+  
+  nav{
+    position: relative;
+  }
+
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  .menu li {
+    height: 7vh;
+  }
+
+  .toggle {
+    position: relative;
+  }
+
+  .menu {
+    position: absolute;
+    right: 0;
+    top: 7vh;
+    flex-direction: column;
+    align-items: start;
+    background-color: rgba(0, 0, 0, 0.74);
+    width: fit-content;
+    height: 15vh;
+    z-index: 1;
+  }
+
+  .menu li {
+    display: flex;
+    color: rgb(180, 109, 2);
+    height: 7vh;
+    list-style: none;
+    border-left: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid rgb(180, 109, 2);
+    width: 100%;
+  }
+
+  .toggle {
+    position: relative;
+  }
+
+  .hamburger {
+    position: absolute;
+    left: 35vw;
+    top: 1vh;
+    bottom: 1vh;
+    background-color: rgb(180, 109, 2);
+    height: 5vh;
+    width: 5vh; 
+    border-radius: 50%;
+   }
+
+/*
+   nav {
+    position: relative;
+   }
+
+   .menu {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+  }
+  
+  .menu li {
+    display: flex;
+    align-items:normal;
+    color: rgb(180, 109, 2);
+    height: 7vh;
+    border-left: 1px solid rgb(180, 109, 2);
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  */
+}

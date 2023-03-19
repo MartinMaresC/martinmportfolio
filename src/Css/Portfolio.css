@@ -1,3 +1,9 @@
 .Titulo {
     font-size: 8rem;
 }
+
+@media (max-width:740px) {
+    .Titulo {
+      font-size: 3rem;
+    }
+}
