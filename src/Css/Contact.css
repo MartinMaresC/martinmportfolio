@@ -28,7 +28,7 @@
   border: none;
   border-radius: 10px;
   background-color: black;
-  color: rgb(180, 109, 2);
+  color: whitesmoke;
 }
 
 .mensaje {
@@ -38,8 +38,9 @@
 
 .enviar:hover {
   cursor: pointer;
-  background-color: rgb(180, 109, 2);
+  background-color: whitesmoke;
   color: black;
+  border: 1px solid black;
 }
 
 .formulario textarea {

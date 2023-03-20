@@ -6,6 +6,7 @@ function About () {
       
       <div className="about-section">
         <h1>About <span>Me!</span></h1>
+        <button className='contactme'>Contact me</button>
       </div>
     );
 }

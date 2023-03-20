@@ -23,7 +23,7 @@
 .textabout ul li {
     display: flex;
     justify-content: space-evenly;
-    color: rgb(180, 109, 2);
+    color: black;
     font-size:x-large;
     margin-left: 3vw;
     margin-right: 3vw;
