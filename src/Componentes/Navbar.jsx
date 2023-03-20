@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import francia from '../img/francia.png';
+import uk from '../img/reino-unido.png';
 import '../Css/Navbar.css';
 
 const Navbar = () => {
@@ -10,7 +12,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className="logo">Martin Mares</div>
+      <div className="logo">Martin Cruz ✗</div>
       <ul className={menuOpen ? 'menu show' : 'menu'}>
         <li>About</li>
         <li>Portfolio</li>
@@ -23,6 +25,10 @@ const Navbar = () => {
           <span></span>
         </div>
       </div>
+      <div className='flags'>
+          <li><img src={francia} alt="" /></li>
+          <li><img src={uk} alt="" /></li>
+        </div>
     </nav>
   );
 };

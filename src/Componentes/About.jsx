@@ -5,7 +5,9 @@ function About () {
     return (
       
       <div className="about-section">
-        <h1>About <span>Me!</span></h1>
+        <h1>About 
+          <span className='me'>Me!</span>
+          </h1>
         <button className='contactme'>Contact me</button>
       </div>
     );
