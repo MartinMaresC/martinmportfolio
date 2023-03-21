@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 .about-section{
     height: 100vh;
     display: flex;
@@ -8,8 +13,7 @@
     background-size: cover;
     color: whitesmoke;
     background-color: black;
-    padding: 0;
-    margin: 0;
+    overflow: hidden;
 }
 
 .about-section span {
