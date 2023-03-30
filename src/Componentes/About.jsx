@@ -1,14 +1,14 @@
+import { useTranslation } from 'react-i18next';
 import React from 'react';
 import '../Css/About.css';
-import { useTranslation } from 'react-i18next';
 
 function About () {
 
-  const {t, i18n} = useTranslation();
+  const {t} = useTranslation("About");
     return (
       
       <div className="about-section">
-        <h1>{t("about")} 
+        <h1>{t('about')}
           <span className='me'>Me!</span>
           </h1>
         <button className='contactme'>Contact me</button>
