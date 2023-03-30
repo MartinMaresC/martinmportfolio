@@ -9,7 +9,7 @@ function About () {
       
       <div className="about-section">
         <h1>{t('about')}
-          <span className='me'>Me!</span>
+          <span className='me'>{t('me')}</span>
           </h1>
         <button className='contactme'>Contact me</button>
       </div>

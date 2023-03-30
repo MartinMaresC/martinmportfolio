@@ -1,7 +1,9 @@
+import { useTranslation } from 'react-i18next';
 import React, { useState } from 'react';
 import francia from '../img/francia.png';
 import uk from '../img/reino-unido.png';
 import '../Css/Navbar.css';
+
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -9,6 +11,13 @@ const Navbar = () => {
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+
+  const {i18n} = useTranslation();
+
+  const handleChangeLng = (lng) => {
+    i18n.changeLanguage(lng);
+    localStorage.setItem("lng", lng);
+  }
 
   return (
     <nav>
@@ -26,8 +35,8 @@ const Navbar = () => {
         </div>
       </div>
       <div className='flags'>
-          <li><img src={francia} alt="" /></li>
-          <li><img src={uk} alt="" /></li>
+          <li onClick={()=> handleChangeLng("fr")}><img src={francia} alt="" /></li>
+          <li onClick={()=> handleChangeLng("en")}><img src={uk} alt="" /></li>
         </div>
     </nav>
   );
