@@ -1,6 +1,18 @@
 {
     
-        "about": "A propos de",
-        "me": "Moi!"
+        "about": "À propos de",
+        "me": "Moi!",
+        "contactme": "Contactez-moi",
+        "liAbout": "À propos de moi",
+        "line1": "Bonjour, je m'appelle Martin et je suis développeur web. J'habite à Aguascalientes, au Mexique",
+        "line2": "J'ai de l'expérience avec divers langages de programmation et technologies web, y compris HTML, CSS, JavaScript, React, Angular et Node.js",
+        "line3": "Ma passion pour le développement web a commencé lorsque j'étais à l'université, et depuis lors, j'ai travaillé sur différents projets pour améliorer mes compétences et acquérir de l'expérience",
+        "line4": "Quand je ne code pas, j'aime les activités en extérieur.",
+        "skills": "Compétences",
+        "english": "Anglais C1",
+        "french": "Français B1",
+        "associate": "DUT en développement de logiciels",
+        "name": "Prénom",
+        "send": "Envoyer message"  
     
 }

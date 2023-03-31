@@ -1,3 +1,7 @@
+.Titulo {
+  font-size: 8rem;
+}
+
 .contenedor-divisor {
   display: flex;
   margin: 5vw;
@@ -22,18 +26,25 @@
 }
 
 .enviar {
-  width: 100px;
+  width: fit-content;
   height: 50px;
   margin-top: 10px;
   border: none;
   border-radius: 10px;
   background-color: black;
   color: whitesmoke;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .mensaje {
   border: 1px solid rgb(179, 179, 179);
+  border-radius: 15px;
   margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .enviar:hover {
@@ -51,9 +62,21 @@
   margin-bottom: 10px;
 }
 
-.Titulo {
-    font-size: 8rem;
+.nombre, .email{
+  padding: 10px;
 }
+
+.mapa {
+  border: solid 1px rgb(153, 153, 153);
+  border-radius: 15px;
+}
+
+iframe {
+  border-radius: 15px;
+  height: 100%;
+  width: fit-content;
+}
+
 
 
 @media (max-width:821px) {
@@ -79,5 +102,11 @@
       width: 100%;
       display: flex;
       justify-content: center;
+    }
+
+    iframe {
+      border-radius: 15px;
+      height: fit-content;
+      width: 100%;
     }
 }

@@ -8,16 +8,22 @@ import en from './Translations/en.json';
 
 
 i18next.use(initReactI18next).init({
-    ns: ['common', 'About'],
+    ns: ['common', 'About', 'Navbar', 'Textabout', 'Contact'],
     lng: localStorage.getItem("lng") || "en",
     resources: {
         
         en: {
             About: en,
+            Navbar: en,
+            Textabout: en,
+            Contact: en
         },
 
         fr: {
             About: fr,
+            Navbar: fr,
+            Textabout: fr,
+            Contact: fr
         },
     },
 });

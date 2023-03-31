@@ -11,7 +11,7 @@ function About () {
         <h1>{t('about')}
           <span className='me'>{t('me')}</span>
           </h1>
-        <button className='contactme'>Contact me</button>
+        <button className='contactme'>{t('contactme')}</button>
       </div>
     );
 }

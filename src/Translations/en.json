@@ -1,7 +1,19 @@
 {
    
         "about": "About",
-        "me": "Me!"
+        "me": "Me!",
+        "contactme": "Contact me",
+        "liAbout": "About me",
+        "line1": "Hi, I'm Martin, a web developer based in Aguascalientes, México",
+        "line2": "I have experience with a variety of programming languages and web technologies, including HTML, CSS, JavaScript, React, Angular and Node.js.",
+        "line3": "My passion for web development started when I was in college, and since then, I have been working on various projects to improve my skills and gain experience",
+        "line4": "When I'm not coding, I enjoy outside activities.",
+        "skills": "Skills",
+        "english": "English C1",
+        "french": "French B1",
+        "associate": "Associate in Software Development",
+        "name": "Name",
+        "send": "Send message" 
     
 }    
 

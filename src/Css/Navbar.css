@@ -7,18 +7,18 @@
 nav {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   height: 50px;
   background-color: rgba(0, 0, 0, 0.884);
+  position: relative;
 }
 
 .logo {
-  display: flex;
-  width: 100%;
+  position: absolute;
   font-weight: 600;
   font-size: 40px;
-  margin-left: 20px;
+  left: 20px;
   color: whitesmoke;
 }
 
