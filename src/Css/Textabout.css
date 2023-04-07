@@ -30,6 +30,8 @@
     margin-right: 3vw;
     margin-bottom: 5px;
     padding: 5px;
+    border: 1px black solid;
+    border-radius: 5px;
 }
 
 @media (max-width:740px) {

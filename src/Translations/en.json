@@ -13,7 +13,10 @@
         "french": "French B1",
         "associate": "Associate in Software Development",
         "name": "Name",
-        "send": "Send message" 
+        "send": "Send message",
+        "nameField": "*Name field is required",
+        "emailField": "*Email field is required",
+        "messageField": "*Message field is required"
     
 }    
 

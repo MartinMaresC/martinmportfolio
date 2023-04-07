@@ -13,6 +13,9 @@
         "french": "Français B1",
         "associate": "DUT en développement de logiciels",
         "name": "Prénom",
-        "send": "Envoyer message"  
+        "send": "Envoyer message",
+        "nameField": "*Champ de prenom obligatoire",
+        "emailField": "*Champ d'email obligatoire",
+        "messageField": "*Champ de message obligatoire"
     
 }

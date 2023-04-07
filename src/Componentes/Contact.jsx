@@ -5,11 +5,12 @@ import { useTranslation } from 'react-i18next';
 
 function Contact() {
   const form = useRef();
-
+  const { t } = useTranslation("Contact");
   const [nameError, setNameError] = useState('');
   const [emailError, setEmailError] = useState('');
   const [messageError, setMessageError] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
+  
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -19,19 +20,19 @@ function Contact() {
 
     // validate name field
     if (!form.current.user_name.value.trim()) {
-      nameErrorValue = '*Name is required';
+      nameErrorValue = t('nameField');
     }
 
     // validate email field
     if (!form.current.user_email.value.trim()) {
-      emailErrorValue = 'Email is required';
+      emailErrorValue = t('emailField');
     } else if (!/\S+@\S+\.\S+/.test(form.current.user_email.value.trim())) {
       emailErrorValue = '*Invalid email address';
     }
 
     //validate message field
     if (!form.current.message.value.trim()) {
-        messageErrorValue = '*Message field is required';
+        messageErrorValue = t('messageField');
     }
 
     // update state variables
@@ -65,7 +66,7 @@ function Contact() {
     }
   };
 
-  const { t } = useTranslation('Contact');
+  
 
   return (
     <section className='contenedor-principal'>
