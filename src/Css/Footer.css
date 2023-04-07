@@ -1,0 +1,35 @@
+.footerSection {
+    height: 80px;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.884);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dataDiv {
+    display: flex;
+    margin-right: 30px;
+}
+
+.iconDiv {
+    display: flex;
+    
+}
+
+.footerData {
+    margin-left: 10px;
+}
+
+.footerIcon {
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+@media (max-width:740px) {
+    .dataDiv {
+        flex-direction: column;
+    }
+}

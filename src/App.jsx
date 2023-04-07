@@ -5,6 +5,7 @@ import About from './Componentes/About';
 import Portfolio from './Componentes/Portfolio';
 import Contact from './Componentes/Contact';
 import Textabout from './Componentes/Textabout';
+import Footer from './Componentes/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Textabout />
       <Portfolio />
       <Contact />
+      <Footer />
     </div>
     </>
   );
