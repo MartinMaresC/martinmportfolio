@@ -2,8 +2,64 @@
     font-size: 8rem;
 }
 
+.sectionPortfolio {  
+  background-color: whitesmoke;
+  color: black;
+}
+
+.projectsDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3vw;
+}
+
+.textDescriptionDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagePortfolio {
+  width: 400px;
+  cursor: pointer;
+  transition: 1s ease-in-out;
+}
+
+.imagePortfolio:hover {
+  width: 420px;
+}
+
+
+
 @media (max-width:740px) {
     .Titulo {
       font-size: 3rem;
     }
+    .imagePortfolio {
+      width: 350px;
+    }
+
+    .projectDiv {
+      flex-direction: column;
+    }
+
+    .sectionPortfolio {  
+      border-bottom: 1px solid rgb(197, 196, 196);
+      border-radius: 15px;
+    }
+}
+
+@media (max-width:915px) {
+  .projectsDiv {
+    flex-direction: column;
+  }
+
 }

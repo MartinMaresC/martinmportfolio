@@ -5,6 +5,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 .dataDiv {
@@ -13,8 +15,7 @@
 }
 
 .iconDiv {
-    display: flex;
-    
+    display: flex;  
 }
 
 .footerData {
@@ -31,5 +32,6 @@
 @media (max-width:740px) {
     .dataDiv {
         flex-direction: column;
+        margin-bottom: 0;
     }
 }

@@ -1,11 +1,37 @@
+.profileDescripcion {
+    display: flex;
+    background-color: whitesmoke;
+}
+
+.profileDescripcion div {
+    width: 50%;
+}
+
+.profilePictureDiv img{
+    width: 100%;
+    width: 300px;
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.textDescriptionDiv {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
 .textabout {
     text-align: center;
-    margin-top: 20px;
 }
+
 .textabout h3 {
     position: relative;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 20px;
     font-size: x-large;
 }
 
@@ -15,30 +41,113 @@
     margin-top: 10px;
 }
 
-.textabout ul {
+.skillsDiv {
+    background-color: whitesmoke;
+}
+
+.softSkillsDiv {
+    display: flex;
+}
+
+.ulSoftSkills {
     position: relative;
     display: flex;
     justify-content: space-evenly;
     margin: 10px;
+    list-style: none;
 }
 
-.textabout ul li {
+.ulSoftSkills li {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: black;
     font-size:x-large;
-    margin-left: 3vw;
-    margin-right: 3vw;
     margin-bottom: 5px;
     padding: 5px;
-    border: 1px black solid;
+    border: 1px rgb(187, 187, 187) solid;
     border-radius: 5px;
+    width: 250px;
+}
+
+.ulTechnologies {
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.884);
+    width: 100%;
+}
+
+.ulSoftSkills li img {
+    height: 80px;
+    width: 80px;
+}
+
+.liTechnologies img{
+    height: 60px;
+    width: 60px;
+}
+
+.liTechnologies {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.liContainer {
+    margin-right: 20px;
 }
 
 @media (max-width:740px) {
-.textabout ul li {
+    .textabout ul li {
     font-size: medium;
     margin-left: 1vw;
     margin-right: 1vw;
     }    
+
+    .liTechnologies img{
+        height: 30px;
+        width: 30px;
+    }
+    .softSkillsDiv {
+        display: block;
+    }
+    .ulSoftSkills li {
+        width: 45vw;
+        height: 170px;
+    }
+    .profileDescripcion {
+        flex-direction: column;
+    }
+    .profileDescripcion div {
+        width: 100%;
+    }
+    .profilePictureDiv img{
+        width: 200px;
+    }
+
+    .profileDescripcion {
+        border-bottom: 1px solid rgb(172, 172, 172);
+        border-radius: 15px;
+    }
+
+    .skillsDiv {
+        border-top: 1px solid rgb(192, 192, 192);
+        border-radius: 15px;
+        margin-top: 5px;
+    }
+    
+    
+}
+
+@media (max-width:915px) {
+    .ulSoftSkills li {
+        width: 45vw;
+        height: 170px;
+    }
+
+    .softSkillsDiv {
+        display: block;
+    }
 }
