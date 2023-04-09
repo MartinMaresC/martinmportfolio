@@ -35,7 +35,7 @@ function Navbar() {
   return (
     <nav>
       <div className="logo">Martin Cruz ✗</div>
-      <ul className={menuOpen ? 'show' : 'menu'}>
+      <ul className={menuOpen ? 'show menu' : 'menu'}>
         <li>{t('liAbout')}</li>
         <li>Portfolio</li>
         <li>Contact</li>

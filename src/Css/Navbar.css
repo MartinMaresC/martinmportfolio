@@ -107,9 +107,9 @@ nav {
   height: 24px;
 }
 
-.show {
+/*.show {
   display: none;
-}
+}*/
 @media (max-width:740px) {
   .logo {
     font-size: 30px;
