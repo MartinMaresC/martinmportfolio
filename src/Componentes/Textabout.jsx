@@ -3,7 +3,7 @@ import '../Css/Textabout.css';
 import coder from '../img/coding.png';
 import google from '../img/search.png';
 import translate from '../img/translate.png';
-import student from '../img/student.png';
+import chatbot from '../img/chatbot.png';
 import html from '../img/html-5.png';
 import react from '../img/react.png';
 import angular from '../img/angular.png';
@@ -15,7 +15,7 @@ import profilePic from '../img/Picture.png'
 function Textabout() {
   const {t} = useTranslation('Textabout');
 return (
-        <div className='textabout'>
+        <div className='textabout' id='textAbout'>
         <div className='profileDescripcion'>
         <div className='profilePictureDiv'>
         <img src={profilePic} alt="" />
@@ -46,8 +46,8 @@ return (
             {t('translation')}
           </li>
           <li>
-          <img src={student} alt="" />
-            {t('associate')}
+          <img src={chatbot} alt="" />
+          {t('chatbot')}
           </li>
           </div>
         </ul>

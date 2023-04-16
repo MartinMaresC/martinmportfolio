@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import React from 'react';
+import './Contact';
 import '../Css/About.css';
 
 function About () {
@@ -11,7 +12,9 @@ function About () {
         <h1>{t('about')}
           <span className='me'>{t('me')}</span>
           </h1>
-        <button className='contactme'>{t('contactme')}</button>
+        <button 
+        onClick={()=> document.getElementById('Contact').scrollIntoView({ behavior: 'smooth'})}
+        className='contactme'>{t('contactme')}</button>
       </div>
     );
 }

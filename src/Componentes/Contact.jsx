@@ -69,7 +69,7 @@ function Contact() {
   
 
   return (
-    <section className='contenedor-principal'>
+    <section className='contenedor-principal' id='Contact'>
       <h1 className='Titulo'>Contact</h1>
 
       <div className='contenedor-divisor'>

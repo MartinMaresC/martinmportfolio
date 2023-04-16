@@ -1,12 +1,19 @@
 .Titulo {
-  font-size: 8rem;
+  font-size: 50px;
+  margin-bottom: 25px;
+  margin-left: 20px;
+}
+
+.contenedor-principal {
+  border-top: 1px solid rgb(197, 196, 196);
+  border-radius: 15px;
 }
 
 .contenedor-divisor {
   display: flex;
   margin-left: 5vw;
   margin-right: 5vw;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .formulario {
@@ -27,6 +34,7 @@
   border-top: none;
   border-left: none;
   border-right: none;
+  background-color: whitesmoke;
 }
 
 .enviar {
@@ -50,6 +58,7 @@
   padding-right: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
+  background-color: whitesmoke;
 }
 
 .enviar:hover {

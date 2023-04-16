@@ -7,6 +7,7 @@
     justify-content: center;
     margin: 0;
     padding: 0;
+    font-weight: 600;
 }
 
 .dataDiv {
@@ -20,18 +21,43 @@
 
 .footerData {
     margin-left: 10px;
+    border-right: 1px solid whitesmoke;
+    padding-right: 10px;
 }
 
 .footerIcon {
     height: 24px;
     width: 24px;
     cursor: pointer;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 @media (max-width:740px) {
     .dataDiv {
         flex-direction: column;
         margin-bottom: 0;
+        margin-right: 10px;
+    }
+
+    .footerData {
+        margin-left: 0px;
+        border-right: 1px solid whitesmoke;
+        padding-right: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footerIcon {
+        padding: 0px;
+        margin-left: 0;
+    }
+
+    .iconDiv {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .footerSection {
+        padding: 10PX;
     }
 }

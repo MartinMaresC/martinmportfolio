@@ -1,6 +1,8 @@
 import github from '../img/github.png';
 import linkedin from '../img/linkedin.png';
 import facebook from '../img/facebook.png';
+import whatsapp from '../img/whatsappicon.png';
+
 import '../Css/Footer.css';
 
 function Footer () {
@@ -12,9 +14,16 @@ function Footer () {
     <p className='footerData'>martinmarescr@gmail.com</p>
     </div>
     <div className='iconDiv'>
-    <img src={github} alt="" className='footerIcon'/>
+    <img src={github}
+    onClick={()=>window.open('https://github.com/MartinMaresC')} 
+    alt="" className='footerIcon'/>
     <img src={linkedin} alt="" className='footerIcon'/>
-    <img src={facebook} alt="" className='footerIcon'/>
+    <img src={facebook}
+    onClick={()=>window.open('https://www.facebook.com/profile.php?id=100090622666241')} 
+    alt="" className='footerIcon'/>
+    <img src={whatsapp}
+    onClick={()=>window.open('https://www.facebook.com/profile.php?id=100090622666241')} 
+    alt="" className='footerIcon'/>
     </div>
 </section>
     )

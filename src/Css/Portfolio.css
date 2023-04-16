@@ -37,7 +37,12 @@
   width: 420px;
 }
 
-
+.sectionPortfolio {  
+  border-bottom: 1px solid rgb(197, 196, 196);
+  border-radius: 15px;
+  padding-bottom: 25px;
+  margin-bottom: 10px;
+}
 
 @media (max-width:740px) {
     .Titulo {
@@ -54,12 +59,17 @@
     .sectionPortfolio {  
       border-bottom: 1px solid rgb(197, 196, 196);
       border-radius: 15px;
+      margin-bottom: 0px;
     }
 }
 
 @media (max-width:915px) {
   .projectsDiv {
     flex-direction: column;
+  }
+
+  .sectionPortfolio {  
+    margin-bottom: 0px;
   }
 
 }

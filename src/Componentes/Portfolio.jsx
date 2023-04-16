@@ -2,7 +2,7 @@ import projectJapan from '../img/JapanViews.png'
 import '../Css/Portfolio.css'
 function Portfolio() {
     return (
-        <section className='sectionPortfolio'>
+        <section className='sectionPortfolio' id='Portafolio'>
             <h1 className="Titulo" >Portfolio</h1>
             <div className='projectsDiv'>
                 <div>

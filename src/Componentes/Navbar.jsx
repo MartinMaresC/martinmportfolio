@@ -3,6 +3,9 @@ import React, { useState, useEffect } from 'react';
 import francia from '../img/francia.png';
 import uk from '../img/reino-unido.png';
 import '../Css/Navbar.css';
+import './Textabout';
+import './Portfolio';
+import './Contact';
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(true);
@@ -36,9 +39,15 @@ function Navbar() {
     <nav>
       <div className="logo">Martin Cruz ✗</div>
       <ul className={menuOpen ? 'show menu' : 'menu'}>
-        <li>{t('liAbout')}</li>
-        <li>Portfolio</li>
-        <li>Contact</li>
+        <li
+        onClick={() => document.getElementById('textAbout').scrollIntoView({ behavior: 'smooth' })}
+        >{t('liAbout')}</li>
+        <li
+        onClick={()=> document.getElementById('Portafolio').scrollIntoView({ behavior:'smooth' })}
+        >Portfolio</li>
+        <li
+        onClick={()=> document.getElementById('Contact').scrollIntoView({ behavior:'smooth' })}
+        >Contact</li>
       </ul>
       <div className="toggle" onClick={toggleMenu}>
         <div className={'hamburger'}>
