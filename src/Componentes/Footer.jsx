@@ -6,6 +6,9 @@ import whatsapp from '../img/whatsappicon.png';
 import '../Css/Footer.css';
 
 function Footer () {
+    function openFacebook(){
+        window.open('https://www.facebook.com/profile.php?id=100090622666241');
+    }
     return (
     <section className='footerSection'>
     <div className='dataDiv'>
@@ -17,12 +20,14 @@ function Footer () {
     <img src={github}
     onClick={()=>window.open('https://github.com/MartinMaresC')} 
     alt="" className='footerIcon'/>
-    <img src={linkedin} alt="" className='footerIcon'/>
+    <img src={linkedin} 
+    onClick={openFacebook} 
+    alt="" className='footerIcon'/>
     <img src={facebook}
-    onClick={()=>window.open('https://www.facebook.com/profile.php?id=100090622666241')} 
+    onClick={openFacebook} 
     alt="" className='footerIcon'/>
     <img src={whatsapp}
-    onClick={()=>window.open('https://www.facebook.com/profile.php?id=100090622666241')} 
+    onClick={openFacebook} 
     alt="" className='footerIcon'/>
     </div>
 </section>
