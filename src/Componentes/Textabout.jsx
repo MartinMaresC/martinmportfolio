@@ -34,20 +34,48 @@ return (
           <li className='liContainer'>
             <img src={coder} alt="" />
             {t('web')}
+            <div className='services'>
+            <p>- Landing page</p>
+            <p>- One page</p>
+            <p>- Magazine</p>
+            <p>- Blog</p>
+            <p>- Microsite</p>
+            </div>
           </li>
           <li>
           <img src={google} alt="" />
             {t('seo')}
+            <div className='services'>
+            <p>- Landing page</p>
+            <p>- One page</p>
+            <p>- Magazine</p>
+            <p>- Blog</p>
+            <p>- Microsite</p>
+            </div>
           </li>
           </div>
           <div className='softSkillsDiv'>
           <li className='liContainer'>
           <img src={translate} alt="" />
             {t('translation')}
+            <div className='services'>
+            <p>- Landing page</p>
+            <p>- One page</p>
+            <p>- Magazine</p>
+            <p>- Blog</p>
+            <p>- Microsite</p>
+            </div>
           </li>
           <li>
           <img src={chatbot} alt="" />
-          {t('chatbot')}
+            {t('chatbot')}
+            <div className='services'>
+            <p>- Landing page</p>
+            <p>- One page</p>
+            <p>- Magazine</p>
+            <p>- Blog</p>
+            <p>- Microsite</p>
+            </div>
           </li>
           </div>
         </ul>

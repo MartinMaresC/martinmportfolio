@@ -47,14 +47,22 @@
 
 .softSkillsDiv {
     display: flex;
+    margin-right: 20px;
+    margin-bottom: 15px;
 }
 
-.ulSoftSkills {
+/*.ulSoftSkills {
     position: relative;
     display: flex;
     justify-content: space-evenly;
     margin: 10px;
     list-style: none;
+}*/
+
+.ulSoftSkills {
+   display: flex; 
+   justify-content: center;
+   align-items: center;
 }
 
 .ulSoftSkills li {
@@ -69,7 +77,7 @@
     border: 1px rgb(187, 187, 187) solid;
     border-radius: 5px;
     /*box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.884), -1em 0 .4em rgb(211, 209, 209);*/
-    box-shadow: inset 5em 1em rgb(233, 233, 233), 3px 3px rgba(0, 0, 0, 0.884);
+    box-shadow: inset 5em 1em rgb(233, 233, 233), 3px 3px rgb(233, 233, 233);
     width: 250px;
 }
 
@@ -102,9 +110,15 @@
     margin-right: 20px;
 }
 
-@media (max-width:740px) {
+.services {
+    text-align: left;
+    margin-top: 10px;
+    font-size: large;
+}
+
+@media (max-width:915px) {
     .textabout ul li {
-    font-size: medium;
+    /*font-size: medium;*/
     margin-left: 1vw;
     margin-right: 1vw;
     }    
@@ -114,12 +128,12 @@
         width: 30px;
     }
     .softSkillsDiv {
-        display: block;
+        margin-bottom: 0px;
     }
-    .ulSoftSkills li {
+    /*.ulSoftSkills li {
         width: 45vw;
         height: 170px;
-    }
+    }*/
     .profileDescripcion {
         flex-direction: column;
     }
@@ -140,17 +154,36 @@
         border-radius: 15px;
         margin-top: 5px;
     }
-    
-    
-}
 
-@media (max-width:915px) {
-    .ulSoftSkills li {
-        width: 45vw;
-        height: 170px;
+    .services {
+        /*font-size:small;*/
+    }
+
+    .ulSoftSkills {
+        flex-direction: column;
+     }
+
+     .ulSoftSkills li {
+        width: 90vw;
+        height: 270px;
     }
 
     .softSkillsDiv {
-        display: block;
+        flex-direction: column;
+        margin-right: 0;
     }
+    
+    
 }
+/*
+@media (max-width:915px) {
+    .ulSoftSkills li {
+        width: 90vw;
+        height: 250px;
+    }
+
+    .softSkillsDiv {
+        flex-direction: column;
+        margin-right: 0;
+    }
+}*/
