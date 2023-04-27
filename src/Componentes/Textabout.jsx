@@ -4,13 +4,9 @@ import coder from '../img/coding.png';
 import google from '../img/search.png';
 import translate from '../img/translate.png';
 import chatbot from '../img/chatbot.png';
-import html from '../img/html-5.png';
-import react from '../img/react.png';
-import angular from '../img/angular.png';
-import nodejs from '../img/nodejs.png';
-import sql from '../img/sql-server.png';
-import git from '../img/git.png';
-import profilePic from '../img/Picture.png'
+import aboutpic3 from '../img/aboutpic3.jpg';
+import aboutpic2 from '../img/aboutpic2.jpg';
+import aboutpic1 from '../img/aboutpic1.jpg';
 
 function Textabout() {
   const {t} = useTranslation('Textabout');
@@ -18,7 +14,9 @@ return (
         <div className='textabout' id='textAbout'>
         <div className='profileDescripcion'>
         <div className='profilePictureDiv'>
-        <img src={profilePic} alt="" />
+        <img className='pic1' src={aboutpic2} alt="" />
+        <img className='pic2' src={aboutpic1} alt="" />
+        <img className='pic3' src={aboutpic3} alt="" />
         </div>
         <div className='textDescriptionDiv'>
         <p className='texto'>{t('line1')}</p>
@@ -79,26 +77,7 @@ return (
           </li>
           </div>
         </ul>
-        <ul className='ulTechnologies'>
-        <li className='liTechnologies'>
-          <img src={html} alt="" />
-            </li>
-          <li className='liTechnologies'>
-            <img src={react} alt="" />
-            </li>
-          <li className='liTechnologies'>
-          <img src={angular} alt="" />
-            </li>
-          <li className='liTechnologies'>
-          <img src={nodejs} alt="" />
-            </li>
-          <li className='liTechnologies'>
-          <img src={sql} alt="" />
-            </li>
-          <li className='liTechnologies'>
-          <img src={git} alt="" />
-            </li>
-        </ul>
+        
         </div>
         </div>
       );

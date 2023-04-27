@@ -9,9 +9,8 @@ function About () {
     return (
       
       <div className="about-section">
-        <h1>{t('about')}
-          <span className='me'>{t('me')}</span>
-          </h1>
+        <h1 className='about'>{t('about')}</h1>
+        <h2 className='me'>{t('me')}</h2>
         <button 
         onClick={()=> document.getElementById('Contact').scrollIntoView({ behavior: 'smooth'})}
         className='contactme'>{t('contactme')}</button>

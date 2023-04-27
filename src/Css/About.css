@@ -16,36 +16,35 @@
     flex-direction: column;
     background-size: cover;
     color: whitesmoke;
-    background-color: black;
+    /*background-color: black;*/
+    background-image: url('../img/Picture.png');
+    background-size:cover;
+    background-repeat: no-repeat;
     overflow: hidden;
 }
 
-.about-section span {
-    font-size: 25vw;
-    position: relative;
-}
-
-.about-section span::after {
+.about-section::after{
     content: '';
     position: absolute;
     height: 100%;
+    /*height: calc(100vh - 50px);*/
     width: 100%;
-    /*border-left: 2px solid white;*/
-    left: 0;
-    background: black;
-    animation: typing 2s steps(40) infinite;
+    background-color: rgba(0, 0, 0, 0.555);
+   
+    top: 0;
 }
 
-@keyframes typing {
-    100% {
-        left: 100%;
-        margin: 0 0 -35px 35px;
-    }    
-}
-
-.about-section h1 {
+.me {
+    font-size: 30px;
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    z-index: 1;
+}
+
+.about {
+    position: relative;
+    margin-bottom: 40px;
+    z-index: 1;
 }
 
 .contactme {
@@ -55,6 +54,7 @@
     padding: 15px;
     color: whitesmoke;
     font-weight: 600;
+    z-index: 1;
 }
 
 .contactme:hover {
@@ -66,21 +66,37 @@
 
 @media (max-width: 740px) {
     .about-section {
+        height: calc(50vh - 50px);
+    }
+
+    .about-section::after {
         height: 50vh;
     }
 
-    .about-section::before {
-        height: 50vh;
+    .about-section span {
+        font-size: 50px;
+        position: relative;
+    }
+
+    .me {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    
+    
+    .about {
+        font-size: 20px;
+        margin-bottom: 20px;
     }
 
 }
 
 @media (max-width: 915px) {
-    
+    /*
     .about-section{
         height: 100vw;
     }
-    
+ */   
 }
 
 
