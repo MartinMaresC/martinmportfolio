@@ -21,6 +21,13 @@
     position: relative;
 }
 
+.aboutTitle {
+    margin-bottom: 15vh;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 2px solid gray;
+}
+
 .pic1 {
     width: 350px;
     transform: rotate(-10deg); 
@@ -47,6 +54,7 @@
     justify-content: center;
     align-items: center;
     padding: 10px;
+    padding-right: 10vw;
 }
 
 .textabout {
@@ -54,17 +62,16 @@
     border-radius: 15px;
 }
 
-.textabout h3 {
-    position: relative;
+.servicesTitle {
     padding-top: 10px;
     margin-bottom: 20px;
-    font-size: x-large;
 }
 
 .texto {
     position: relative;
     margin-bottom: 5px;
     margin-top: 10px;
+    padding-bottom: 10px;
 }
 
 .skillsDiv {
@@ -185,13 +192,18 @@
     position: relative;
 }
 
+.aboutTitle {
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+
 .pic1 {
     width: 300px;
     transform: rotate(-10deg); 
 }
 
 .pic2 {
-    width: 200px;
+    width: 180px;
     transform: rotate(-10deg);
     position: absolute;
     top: 250px;
@@ -204,6 +216,13 @@
     margin-top: 80px;
 }
 
+.textDescriptionDiv {
+    padding-right: 10px;
+}
+
+.texto {
+    padding-bottom: 0px;
+}
 
     .profileDescripcion {
         border-bottom: 1px solid rgb(172, 172, 172);

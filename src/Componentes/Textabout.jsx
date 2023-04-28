@@ -14,11 +14,12 @@ return (
         <div className='textabout' id='textAbout'>
         <div className='profileDescripcion'>
         <div className='profilePictureDiv'>
-        <img className='pic1' src={aboutpic2} alt="" />
+        <img className='pic1' src={aboutpic3} alt="" />
         <img className='pic2' src={aboutpic1} alt="" />
-        <img className='pic3' src={aboutpic3} alt="" />
+        <img className='pic3' src={aboutpic2} alt="" />
         </div>
         <div className='textDescriptionDiv'>
+          <h1 className='aboutTitle'>About me</h1>
         <p className='texto'>{t('line1')}</p>
         <p className='texto'>{t('line2')}</p>
         <p className='texto'>{t('line3')}</p>
@@ -26,7 +27,7 @@ return (
         </div>
         </div>
         <div className='skillsDiv'>
-        <h3>{t('services')}</h3>
+        <h1 className='servicesTitle'>{t('services')}</h1>
         <ul className='ulSoftSkills'>
           <div className='softSkillsDiv'>
           <li className='liContainer'>
