@@ -51,11 +51,11 @@ return (
           <img src={google} alt="" />
             {t('seo')}
             <div className='services'>
-            <p>- Landing page</p>
-            <p>- One page</p>
-            <p>- Magazine</p>
-            <p>- Blog</p>
-            <p>- Microsite</p>
+            <p>- Keyword research</p>
+            <p>- On-page optimization</p>
+            <p>- Off-page optimization</p>
+            <p>- Technical SEO</p>
+            <p>- Local SEO</p>
             </div>
           </li>
           </div>
@@ -64,22 +64,22 @@ return (
           <img src={translate} alt="" />
             {t('translation')}
             <div className='services'>
-            <p>- Landing page</p>
-            <p>- One page</p>
-            <p>- Magazine</p>
-            <p>- Blog</p>
-            <p>- Microsite</p>
+            <p>- Website content</p>
+            <p>- Website interface</p>
+            <p>- Multilanguage SEO</p>
+            <p>- Technical documents</p>
+            <p>- Marketing</p>
             </div>
           </li>
           <li>
           <img src={chatbot} alt="" />
             {t('chatbot')}
             <div className='services'>
-            <p>- Landing page</p>
-            <p>- One page</p>
-            <p>- Magazine</p>
-            <p>- Blog</p>
-            <p>- Microsite</p>
+            <p>- Whatsapp chatbot</p>
+            <p>- Website chatbot</p>
+            <p>- Customer support</p>
+            <p>- Development</p>
+            <p>- Implementarion</p>
             </div>
           </li>
           </div>
