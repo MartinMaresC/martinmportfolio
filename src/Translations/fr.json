@@ -17,6 +17,7 @@
         "send": "Envoyer message",
         "nameField": "*Champ de prenom obligatoire",
         "emailField": "*Champ d'email obligatoire",
-        "messageField": "*Champ de message obligatoire"
-    
+        "messageField": "*Champ de message obligatoire",
+        "SEO-description": "Je propose une gamme de services numériques aux entreprises et aux particuliers cherchant à améliorer leur présence en ligne. En tant que designer web compétent, je me spécialise dans la création de sites web sur mesure qui sont attrayants visuellement, conviviaux et réactifs.",
+        "SEO-keywords": "développement web, conception de sites web, services de référencement, services de traduction, création de chatbot, Aguascalientes, Mexique, services numériques, présence en ligne, sites web sur mesure."
 }

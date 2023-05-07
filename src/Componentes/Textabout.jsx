@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { Helmet } from 'react-helmet';
 import '../Css/Textabout.css';
 import coder from '../img/coding.png';
 import google from '../img/search.png';
@@ -12,6 +13,11 @@ function Textabout() {
   const {t} = useTranslation('Textabout');
 return (
         <div className='textabout' id='textAbout'>
+          <Helmet>
+        <title>{t('SEO:pageTitle')}</title>
+        <meta name='description' content={t('SEO-description')} />
+        <meta name='keywords' content={t('SEO-keywords')} />
+          </Helmet>
         <div className='profileDescripcion'>
         <div className='profilePictureDiv'>
         <img className='pic1' src={aboutpic3} alt="" />
