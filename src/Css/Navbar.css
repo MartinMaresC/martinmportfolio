@@ -40,6 +40,11 @@ nav {
   font-weight: 600;
 }
 
+.menu li:first-child {
+  background-color: whitesmoke;
+  color: black;
+}
+
 .menu li:hover {
   background-color: whitesmoke;
   color: black;

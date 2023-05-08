@@ -48,6 +48,9 @@ function Navbar() {
         <li
         onClick={()=> document.getElementById('Contact').scrollIntoView({ behavior:'smooth' })}
         >Contact</li>
+        <li
+        onClick={()=> document.getElementById('Contact').scrollIntoView({ behavior:'smooth' })}
+        >Blog</li>
       </ul>
       <div className="toggle" onClick={toggleMenu}>
         <div className={'hamburger'}>
