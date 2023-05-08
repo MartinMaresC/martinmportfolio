@@ -47,7 +47,7 @@ return (
             <p>- Microsite</p>
             </div>
           </li>
-          <li>
+          <li className='liContainer'>
           <img src={google} alt="" />
             {t('seo')}
             <div className='services'>
@@ -71,7 +71,7 @@ return (
             <p>- Marketing</p>
             </div>
           </li>
-          <li>
+          <li className='liContainer'>
           <img src={chatbot} alt="" />
             {t('chatbot')}
             <div className='services'>
