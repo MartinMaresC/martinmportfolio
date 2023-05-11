@@ -1,106 +1,65 @@
 .footerSection {
-    height: 80px;
-    color: whitesmoke;
-    background-color: rgba(0, 0, 0, 0.884);
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    margin: 0;
-    padding: 0;
-    font-weight: 600;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.884);
+    color: whitesmoke;
 }
 
-.dataDiv {
-    display: flex;
-    margin-right: 30px;
+.dataDiv p:first-child {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.iconDiv {
-    display: flex;  
-}
-
-.footerData {
-    margin-left: 10px;
-    border-right: 1px solid whitesmoke;
-    padding-right: 10px;
-    /*font-weight: 600;*/
-    line-height: 1.5;
-    font-family: 'Roboto', sans-serif;
-}
-
-.footerData:hover {
-    color: #000000;
+.dataDiv p:nth-child(3) {
+    margin-top: 10px;
 }
 
 .footerIcon {
-    cursor: pointer;
-    border: 1px solid #c2c2c2;
-    border-radius: 50%;
-    background-color: #f5f5f5;
-    height: 28px;
-    width: 28px;
+    width: 24px;
     margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 100%;
 }
 
 .footerIcon:hover {
     transform: scale(1.2);
+    cursor: pointer;
+}
+
+.dataDiv p:first-child {
+    font-weight: 600;
+    font-size: 20px;
 }
 
 .legalDiv {
     display: flex;
+    background-color: black;
+    width: 100%;
+    height: 40px;
     justify-content: center;
     align-items: center;
 }
 
-.legalDiv p, .legalDiv a {
-    margin-left: 10px;
+.legalDiv a {
+    padding-right: 10px;
 }
 
 @media (max-width:740px) {
 
-    .footerSection {
-        height: 150px;
-        color: whitesmoke;
-        background-color: rgba(0, 0, 0, 0.884);
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: 0;
-        padding: 0;
-        font-weight: 600;
-    }
-
-    .dataDiv {
-        flex-direction: column;
-        margin-bottom: 0;
-        margin-right: 0px;
-    }
-
-    .footerData {
-        margin-left: 0px;
-        display: flex;
-        justify-content: center;
-        border-right: none;
-        margin-left: 0;
-        padding-right: 0;
-        text-align: center;
-    }
-
     .footerIcon {
-        padding: 0px;
-       
-    }
-
-    .iconDiv {
-       
-        justify-content: space-between;
+        width: 20px;
+        margin-left: 15px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        border-radius: 100%;
     }
 
     .legalDiv {
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        height: 100%;
     }
-
 }
