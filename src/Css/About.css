@@ -104,6 +104,10 @@
         width: 45px;
     }
 
+    .martinCruz {
+        display: none;
+    }
+
 }
 
 @media (min-width: 741px) && (max-width: 915px) {
