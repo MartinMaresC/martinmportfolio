@@ -37,7 +37,7 @@ function Navbar() {
 
   return (
     <nav>
-      <div className="logo">Martin Cruz ✗</div>
+      <div className="logo">Martin Cruz</div>
       <ul className={menuOpen ? 'show menu' : 'menu'}>
         <li
         onClick={() => document.getElementById('textAbout').scrollIntoView({ behavior: 'smooth' })}

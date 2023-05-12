@@ -14,7 +14,7 @@ function Textabout() {
 return (
         <div className='textabout' id='textAbout'>
           <Helmet>
-        <title>{t('SEO:pageTitle')}</title>
+        <title>{t('title')}</title>
         <meta name='description' content={t('SEO-description')} />
         <meta name='keywords' content={t('SEO-keywords')} />
           </Helmet>

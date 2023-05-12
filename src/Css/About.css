@@ -34,10 +34,18 @@
     top: 0;
 }
 
-.me {
-    font-size: 30px;
-    position: relative;
-    margin-bottom: 40px;
+.iconoWhatsappAbout {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    width: 64px;
+    border-radius: 100%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.martinCruz {
+    font-size: 120px;
     z-index: 1;
 }
 
@@ -78,9 +86,9 @@
         position: relative;
     }
 
-    .me {
-        font-size: 15px;
-        margin-bottom: 20px;
+    .martinCruz {
+        font-size: 60px;
+        z-index: 1;
     }
     
     
@@ -89,14 +97,22 @@
         margin-bottom: 20px;
     }
 
+    .iconoWhatsappAbout {
+        position: fixed;
+        top: 40%;
+        left: 30px;
+        width: 45px;
+    }
+
 }
 
-@media (max-width: 915px) {
-    /*
-    .about-section{
-        height: 100vw;
-    }
- */   
+@media (min-width: 741px) && (max-width: 915px) {
+    .iconoWhatsappAbout {
+        position: fixed;
+        top: 40%;
+        left: 30px;
+        width: 45px;
+    } 
 }
 
 

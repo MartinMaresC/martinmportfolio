@@ -1,19 +1,21 @@
 import { useTranslation } from 'react-i18next';
-import React from 'react';
+import React, { useEffect, useLayoutEffect } from 'react';
 import './Contact';
 import '../Css/About.css';
+import whatsapp from '../img/whatsappicon.png'
 
 function About () {
-
   const {t} = useTranslation("About");
+  /*useLayoutEffect(()=> {
+    document.title = t('title');
+  }, [t]);*/
+  
     return (
-      
       <div className="about-section">
-        <h1 className='about'>{t('about')}</h1>
-        <h2 className='me'>{t('me')}</h2>
-        <button 
-        onClick={()=> document.getElementById('Contact').scrollIntoView({ behavior: 'smooth'})}
-        className='contactme'>{t('contactme')}</button>
+        <h1 className='martinCruz'>Martin Cruz</h1>
+        <img
+        className='iconoWhatsappAbout' 
+        src={whatsapp} alt="whatsapp" />
       </div>
     );
 }

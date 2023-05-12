@@ -14,7 +14,7 @@ function Footer () {
     return (
     <section className='footerSection'>
     <div className='dataDiv'>
-        <p className='footerData'>Martin Cruz ✗</p>
+        <p className='footerData'>Martin Cruz</p>
         <p className='footerData'>Martin Cruz is an online portfolio where you will find part of my work as a web developer.</p>
         <p>Follow me on:</p>
     </div>
