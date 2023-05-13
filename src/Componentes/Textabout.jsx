@@ -5,7 +5,7 @@ import coder from '../img/coding.png';
 import google from '../img/search.png';
 import translate from '../img/translate.png';
 import chatbot from '../img/chatbot.png';
-import aboutpic3 from '../img/aboutpic3.jpg';
+import aboutpic3 from '../img/Picture.png';
 import aboutpic2 from '../img/aboutpic2.jpg';
 import aboutpic1 from '../img/aboutpic1.jpg';
 

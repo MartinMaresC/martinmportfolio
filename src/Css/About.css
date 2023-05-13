@@ -23,6 +23,8 @@
     overflow: hidden;
 }
 
+
+
 .about-section::after{
     content: '';
     position: absolute;
@@ -106,6 +108,51 @@
 
     .martinCruz {
         display: none;
+    }
+
+    .about-section {
+        background-image: none;
+        background-size: cover;
+        background-position: center center;
+        -webkit-animation: change-background 10s ease-in-out infinite;
+        -moz-animation: change-background 10s ease-in-out infinite;
+        animation: change-background 10s ease-in-out infinite;
+    }
+    
+    @-webkit-keyframes change-background {
+        0% {
+            background-image: url('../img/Picture.png');
+        }
+        50% {
+            background-image: url('../img/aboutpic1.jpg');
+        }
+        100% {
+            background-image: url('../img/aboutpic2.jpg');
+        }
+    }
+    
+    @-moz-keyframes change-background {
+        0% {
+            background-image: url('../img/Picture.png');
+        }
+        50% {
+            background-image: url('../img/aboutpic1.jpg');
+        }
+        100% {
+            background-image: url('../img/aboutpic2.jpg');
+        }
+    }
+    
+    @keyframes change-background {
+        0% {
+            background-image: url('../img/Picture.png');
+        }
+        50% {
+            background-image: url('../img/aboutpic1.jpg');
+        }
+        100% {
+            background-image: url('../img/aboutpic2.jpg');
+        }
     }
 
 }
