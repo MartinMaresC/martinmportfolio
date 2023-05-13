@@ -2,8 +2,8 @@
     display: flex;
     background-color: rgba(0, 0, 0, 0.884);
     color: whitesmoke;
-    /*padding-top: 60px;
-    padding-bottom: 60px;*/
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .texto-portfolio {
@@ -12,11 +12,18 @@
     align-items: center;
     justify-content: center;
     text-align: justify;
-    width: 40%;
-    padding-right: 50px;
-    padding-left: 50px;
+    width: 50%;
+    padding-right: 70px;
+    padding-left: 70px;
+    margin-right: 50px;
 }
 
 .player-wrapper {
-    padding: 70px;
+    margin-right: 50px;
+}
+
+.react-player {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
