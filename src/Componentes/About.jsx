@@ -9,6 +9,9 @@ function About () {
   /*useLayoutEffect(()=> {
     document.title = t('title');
   }, [t]);*/
+  function openWhatsapp(){
+    window.open('https://www.facebook.com/profile.php?id=100090622666241');
+}
   
     return (
       <div className="about-section">
@@ -16,6 +19,7 @@ function About () {
         <img
         className='iconoWhatsappAbout' 
         src={whatsapp} alt="whatsapp" />
+        onClick={openWhatsapp}
       </div>
     );
 }
