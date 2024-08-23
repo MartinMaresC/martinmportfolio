@@ -18,8 +18,9 @@ function About () {
         <h1 className='martinCruz'>Martin Cruz</h1>
         <img
         className='iconoWhatsappAbout' 
-        src={whatsapp} alt="whatsapp" />
+        src={whatsapp} alt="whatsapp" 
         onClick={openWhatsapp}
+        />
       </div>
     );
 }
