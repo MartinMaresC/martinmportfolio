@@ -6,6 +6,7 @@ import '../Css/Navbar.css';
 import './Textabout';
 import './Portfolio';
 import './Contact';
+import './Footer';
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(true);

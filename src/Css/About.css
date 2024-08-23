@@ -32,7 +32,6 @@
     /*height: calc(100vh - 50px);*/
     width: 100%;
     background-color: rgba(0, 0, 0, 0.555);
-   
     top: 0;
 }
 
@@ -49,6 +48,7 @@
 .martinCruz {
     font-size: 120px;
     z-index: 1;
+    color: rgb(158, 158, 158);
 }
 
 .about {
@@ -74,6 +74,14 @@
     border: 1px solid black;
 }
 
+.myemail {
+    z-index: 11;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: larger;
+}
+
 @media (max-width: 740px) {
     .about-section {
         height: calc(50vh - 50px);
@@ -89,7 +97,7 @@
     }
 
     .martinCruz {
-        font-size: 60px;
+        font-size: 50px;
         z-index: 1;
     }
     
@@ -106,9 +114,9 @@
         width: 45px;
     }
 
-    .martinCruz {
+    /*.martinCruz {
         display: none;
-    }
+    }*/
 
     .about-section {
         background-image: none;

@@ -25,7 +25,7 @@ return (
         <img className='pic3' src={aboutpic2} alt="" />
         </div>
         <div className='textDescriptionDiv'>
-          <h1 className='aboutTitle'>About me</h1>
+          <h1 className='aboutTitle'>{t('about')}</h1>
         <p className='texto'>{t('line1')}</p>
         <p className='texto'>{t('line2')}</p>
         <p className='texto'>{t('line3')}</p>
@@ -79,7 +79,7 @@ return (
             <p>- Website chatbot</p>
             <p>- Customer support</p>
             <p>- Development</p>
-            <p>- Implementarion</p>
+            <p>- Implementation</p>
             </div>
           </li>
           </div>

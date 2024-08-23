@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import github from '../img/github.png';
 import linkedin from '../img/linkedin.png';
 import facebook from '../img/facebook.png';
@@ -8,6 +9,9 @@ import { faFaceGrinStars } from '@fortawesome/free-solid-svg-icons';*/
 import '../Css/Footer.css';
 
 function Footer () {
+
+    const {t} = useTranslation("Footer");
+
     function openFacebook(){
         window.open('https://www.facebook.com/profile.php?id=100090622666241');
     }
@@ -15,7 +19,7 @@ function Footer () {
     <section className='footerSection'>
     <div className='dataDiv'>
         <p className='footerData'>Martin Cruz</p>
-        <p className='footerData'>Martin Cruz is an online portfolio where you will find part of my work as a web developer.</p>
+        <p className='footerData'>{t('footing')}</p>
         <p>Follow me on:</p>
     </div>
     <div className='iconDiv'>
@@ -43,6 +47,7 @@ function Footer () {
     </div>
 </section>
     )
+    
 }
 
 export default Footer;

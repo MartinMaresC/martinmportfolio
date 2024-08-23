@@ -2,7 +2,8 @@ import { useTranslation } from 'react-i18next';
 import React, { useEffect, useLayoutEffect } from 'react';
 import './Contact';
 import '../Css/About.css';
-import whatsapp from '../img/whatsappicon.png'
+import whatsapp from '../img/whatsappicon.png';
+import email from '../img/email.png';
 
 function About () {
   const {t} = useTranslation("About");
@@ -15,7 +16,13 @@ function About () {
   
     return (
       <div className="about-section">
-        <h1 className='martinCruz'>Martin Cruz</h1>
+        <h1 className='martinCruz'>{t('web-developer')}</h1>
+        
+        <p className='myemail'>
+          <img src={email} alt="" />
+          martinmarescr@gmail.com
+          </p>
+
         <img
         className='iconoWhatsappAbout' 
         src={whatsapp} alt="whatsapp" 

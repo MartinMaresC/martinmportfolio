@@ -1,6 +1,7 @@
 {
         "title": "Martin Cruz | Web Deveoper",
-        "about": "I am a Web Developer.",
+        "web-developer": "Web Developer",
+        "about": "About me",
         "me": "I help people and their businesses to connet with the online world!",
         "contactme": "Contact me",
         "liAbout": "About",
@@ -19,6 +20,7 @@
         "emailField": "*Email field is required",
         "messageField": "*Message field is required",
         "SEO-description": "I offer a range of digital services to businesses and individuals seeking to enhance their online presence. As a skilled web designer, I specialize in creating custom websites that are visually appealing, user-friendly, and responsive.",
-        "SEO-keywords": "web development, web design, SEO services, translation services, chatbot creation, Aguascalientes, Mexico, digital services, online presence, custom websites"
+        "SEO-keywords": "web development, web design, SEO services, translation services, chatbot creation, Aguascalientes, Mexico, digital services, online presence, custom websites",
+        "footing": "Martin Cruz is an online portfolio where you will find part of my work as a web developer."
 }    
 
