@@ -8,7 +8,7 @@ import en from './Translations/en.json';
 
 
 i18next.use(initReactI18next).init({
-    ns: ['common', 'About', 'Navbar', 'Textabout', 'Contact'],
+    ns: ['common', 'About', 'Navbar', 'Textabout', 'Contact', 'Footer'],
     lng: localStorage.getItem("lng") || "en",
     resources: {
         
@@ -16,14 +16,16 @@ i18next.use(initReactI18next).init({
             About: en,
             Navbar: en,
             Textabout: en,
-            Contact: en
+            Contact: en,
+            Footer: en,
         },
 
         fr: {
             About: fr,
             Navbar: fr,
             Textabout: fr,
-            Contact: fr
+            Contact: fr,
+            Footer: fr
         },
     },
 });
